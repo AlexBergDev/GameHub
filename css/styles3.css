@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: linear-gradient(#335174, #1D2F43);
+}
+
+header {
+    margin-bottom: 0;
+    padding: 0;
+    background-image: url("../images/header.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%; }
+}
+
+.logo img {
+    float: left;
+    max-width: 213px;
+    max-height: 134px;
+    position: relative;
+    }
+
+nav {
+    display: none;
+    }
+    
+#hamburger-menu{
+    display: none;
+    }
+    
+#hamburger-menu:checked ~ nav {
+    display: block;
+    }
+
+nav li {
+    display: inline-block;
+    }
+      
+nav ul {
+    padding: 0px;
+    }
+        
+nav a {
+    color: #9d3400;
+    text-decoration: none;
+    }
+      
+nav a:hover {
+    text-decoration: underline;
+    }
+      
+a {
+    color: #FF6600;
+    font-family: 'Quicksand', Tahoma, Verdana, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 1.15;
+    letter-spacing: -.02em;
+    -webkit-font-smoothing: antialiased;
+    text-decoration: none;
+    text-shadow: 0 0 2px #435E7D;
+    }
+      
+p {
+    color: white;
+    text-decoration: none;
+    font-family: 'Quicksand', Tahoma, Verdana, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 1.15;
+    letter-spacing: -.02em;
+    -webkit-font-smoothing: antialiased;
+    }
+
+h1, h2 {
+    font-family: 'Quicksand', Tahoma, Verdana, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 74px;
+    line-height: 1.15;
+    letter-spacing: -.02em;
+    -webkit-font-smoothing: antialiased;
+    color: white;
+    }
