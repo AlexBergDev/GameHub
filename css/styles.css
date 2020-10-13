@@ -1,28 +1,50 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
 
 html, body {
-    margin: 0;
+	margin: 0;
     padding: 0;
     height: 100vh;
     background: linear-gradient(#335174, #1D2F43);
 }
 
-header {
-    margin-bottom: 0;
-    padding: 0;
-    background-image: url("../images/header.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 100%; }
+html {
+	background: radial-gradient(#44788D,#F09494);
 }
+
+body {
+	background: linear-gradient(#335174, #1D2F43);
+	margin: 2em auto 2em;
+	font: 100% Arial, Helvetica, sans-serif;
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 40% 30% 30%;
+    grid-template-rows: 1fr 1fr 1fr max-content 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "logo navup navup"
+      "promotion promotion promotion"
+      "cat cat cat"
+      "main main main"
+      "navdown copyright copyright";
+}
+
+.main { grid-area: main; }
+.logo { grid-area: logo; }
+.navup { grid-area: navup; }
+.promotion { grid-area: promotion; }
+.cat { grid-area: cat; }
+.navdown { grid-area: navdown; }
+.copyright { grid-area: copyright; }
 
 .logo img {
     float: left;
     max-width: 213px;
     max-height: 134px;
     position: relative;
-    }
+}
 
 nav {
     display: none;
@@ -88,3 +110,64 @@ h1, h2 {
     -webkit-font-smoothing: antialiased;
     color: white;
     }
+
+/*mobile styles*/
+@media only screen and (max-width:480px) {
+
+	html {
+	background: radial-gradient(#44788D,#F09494);
+	
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+pre {
+	font-size: .8em;
+	padding: .5em;
+	background: rgb(246,247,160);
+	border-bottom: 2px solid #666;
+	line-height: 1.6;
+	font-weight: bold;
+}
+}
+
+/*tablet styles*/
+@media only screen and (min-width:481px) and (max-width:1200px) {
+
+body {
+	width: 80%;
+	padding: 25px;
+	border-radius: 30px;
+	box-shadow: 2px 2px 10px 3px #888888;
+}
+
+pre {
+	font-size: 1em;
+	padding: .5em;
+	background: white;
+	border-bottom: 2px solid #666;
+	line-height: 1.6;
+}
+}
+
+/*desktop styles*/
+@media only screen and (min-width:1201px) {
+	
+ body {
+ width: 1200px;
+ padding: 25px;
+	border-radius: 30px;
+	box-shadow: 2px 2px 10px 3px #888888;
+}
+
+pre {
+	font-size: 1.2em;
+	padding: 1em .5em;
+	background: rgb(216,233,204);
+	border-bottom: 2px solid #666;
+	line-height: 1.6;
+}
+}
