@@ -3,7 +3,7 @@
 html, body {
 	margin: 0;
     padding: 0;
-    height: 100vh;
+    height: auto;
     background: linear-gradient(#335174, #1D2F43);
 }
 
@@ -21,7 +21,7 @@ body {
 .grid-container {
     display: grid;
     grid-template-columns: 40% 30% 30%;
-    grid-template-rows: 1fr 1fr 1fr max-content 1fr;
+    grid-template-rows: min-content min-content min-content max-content min-content;
     gap: 0px 0px;
     grid-template-areas:
       "logo navup navup"
@@ -89,44 +89,44 @@ body {
     float: left;
     margin-top: 2px;
     margin-left: 3px;
-  }
+}
   
 .btn:hover {
     background: linear-gradient(to right, #813400 , #7A8993);
     color: white;
     text-decoration: underline;
-  }
+}
 
 nav {
     display: none;
-    }
+}
     
 #hamburger-menu{
     display: none;
-    }
+}
     
 #hamburger-menu:checked ~ nav {
     display: inline-block;
-    }
+}
 
 nav li {
     display: inline-block;
-    }
+}
       
 nav ul {
     padding: 0px;
-    }
+}
         
 nav a {
     color: #9d3400;
     text-decoration: none;
     padding: 10px;
     display: inline-block;
-    }
+}
       
 nav a:hover {
     text-decoration: underline;
-    }
+}
 
 .current {
     font-weight: bold;
@@ -155,7 +155,7 @@ a {
     -webkit-font-smoothing: antialiased;
     text-decoration: none;
     text-shadow: 0 0 2px #435E7D;
-    }
+}
       
 p {
     color: white;
@@ -167,7 +167,7 @@ p {
     line-height: 1.15;
     letter-spacing: -.02em;
     -webkit-font-smoothing: antialiased;
-    }
+}
 
 h1, h2 {
     font-family: 'Quicksand', Tahoma, Verdana, sans-serif;
@@ -178,19 +178,88 @@ h1, h2 {
     letter-spacing: -.02em;
     -webkit-font-smoothing: antialiased;
     color: white;
-    }
+}
+
+.catbar{
+    overflow: hidden;
+    background-color: #7793AA;
+    border-radius: 50px;
+    padding: 8px;
+}
+
+.catbar a{
+    font-size: 19px;
+    color: white;
+    margin-right: 12px;
+    font-style: bold
+}
+
+.catbar li{
+    display: inline-block
+}
+
+.catbar a:hover {
+    text-decoration: underline;
+}
+
+.navdown{
+    overflow: hidden;
+    background-color: #7793AA;
+    border-radius: 50px;
+    padding: 8px;
+    max-width: 235px;
+} 
+
+.navdown a{
+    display: block;
+    float: left;
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    background: #44788D;
+    margin-right: 12px; /*space between*/
+    box-shadow: 1px 1px 2px 1px #3b687a;
+} 
+
+.navdown a i{
+    padding: 1px 1px;
+    font-size: 19px;
+    color: white;
+    float: relative;
+}
+
+.iconsdown {
+    margin-left: 10px;
+    float: left;
+}
+
+.copyright a{
+    display: inline-block;
+    float: right;
+    font-size: 3em;
+    text-shadow: 2px 2px 4px 2px white;
+}
+
+.copyright p{
+    float: left;
+    display: inline-block;
+    color: #A5ACB4;
+    font-size: 13px;
+    margin-left: 70px;
+    margin-top: 20px;
+}
 
 /*mobile styles*/
 @media only screen and (max-width:790px) {
 
-	html {
-	background: radial-gradient(#44788D,#F09494);
+html {
+background: radial-gradient(#44788D,#F09494);
 	
 }
 
 body {
-	margin: 0;
-	padding: 0;
+    padding: 0;
+    margin: 0;
 }
 
 .logo img {
@@ -202,6 +271,26 @@ body {
     top: 50%; 
     margin-left: -200px;
     margin-top: -350px;
+}
+
+.catbar{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.promotion img {
+    max-width: 100%;
+    max-height: 400px;
+    margin-top: 100px;
+}
+
+.navdown{
+    overflow: hidden;
+    background-color: #7793AA;
+    border-radius: 50px;
+    padding: 8px;
+    max-width: 235px;
+    margin-right: -60px;
 }
 }
 
@@ -246,6 +335,15 @@ nav a{
 nav p{
     padding-left: 20px;
     font-size: 15px;
+}
+
+.promotion img {
+    border-radius: 50px;
+    max-width: 90%;
+    max-height: 400px;
+    margin: 40px;
+    margin-top: 60px;
+    margin-bottom: 70px;
 }
 }
 
@@ -292,5 +390,14 @@ nav a{
 nav p{
     padding-left: 20px;
     font-size: 15px;
+}
+
+.promotion img {
+    border-radius: 50px;
+    max-width: 1110px;
+    max-height: 400px;
+    margin: 40px;
+    margin-top: 60px;
+    margin-bottom: 70px;
 }
 }
