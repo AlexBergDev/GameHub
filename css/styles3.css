@@ -22,36 +22,36 @@ header {
     max-width: 213px;
     max-height: 134px;
     position: relative;
-    }
+}
 
 nav {
     display: none;
-    }
+}
     
 #hamburger-menu{
     display: none;
-    }
+}
     
 #hamburger-menu:checked ~ nav {
     display: block;
-    }
+}
 
 nav li {
     display: inline-block;
-    }
+}
       
 nav ul {
     padding: 0px;
-    }
+}
         
 nav a {
     color: #9d3400;
     text-decoration: none;
-    }
+}
       
 nav a:hover {
     text-decoration: underline;
-    }
+}
       
 a {
     color: #FF6600;
@@ -64,7 +64,7 @@ a {
     -webkit-font-smoothing: antialiased;
     text-decoration: none;
     text-shadow: 0 0 2px #435E7D;
-    }
+}
       
 p {
     color: white;
@@ -76,7 +76,7 @@ p {
     line-height: 1.15;
     letter-spacing: -.02em;
     -webkit-font-smoothing: antialiased;
-    }
+}
 
 h1, h2 {
     font-family: 'Quicksand', Tahoma, Verdana, sans-serif;
@@ -87,4 +87,4 @@ h1, h2 {
     letter-spacing: -.02em;
     -webkit-font-smoothing: antialiased;
     color: white;
-    }
+}
