@@ -44,7 +44,58 @@ body {
     max-width: 213px;
     max-height: 134px;
     position: relative;
+    padding-left: 80px;
+    padding-top: 10px;
 }
+
+.navigation a{
+    display: block;
+    float: left;
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    background: #44788D;
+    margin-right: 12px; /*space between*/
+    box-shadow: 1px 1px 2px 1px #3b687a;
+} 
+
+.navigation a i{
+    padding: 1px 1px;
+    font-size: 19px;
+    color: white;
+    float: relative;
+}
+
+.navigation {
+    overflow: hidden;
+    background-color: #7793AA;
+    border-radius: 50px;
+    padding: 8px;
+    margin-top: -15px;
+}
+.icons {
+    float: right;
+}
+
+.btn {
+    background: linear-gradient(to right, #FF6600 , #A5BBC9);
+    color: white;
+    font-size: 16px;
+    padding: 9px 40px;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+    text-align: center;
+    float: left;
+    margin-top: 2px;
+    margin-left: 3px;
+  }
+  
+.btn:hover {
+    background: linear-gradient(to right, #813400 , #7A8993);
+    color: white;
+    text-decoration: underline;
+  }
 
 nav {
     display: none;
@@ -55,7 +106,7 @@ nav {
     }
     
 #hamburger-menu:checked ~ nav {
-    display: block;
+    display: inline-block;
     }
 
 nav li {
@@ -69,12 +120,30 @@ nav ul {
 nav a {
     color: #9d3400;
     text-decoration: none;
+    padding: 10px;
+    display: inline-block;
     }
       
 nav a:hover {
     text-decoration: underline;
     }
-      
+
+.current {
+    font-weight: bold;
+}
+    
+.hamburger-label{
+    float: right;
+    color: #FFF;
+    padding: 20px;
+    font-size: 2.5em;
+    display: inline-block;
+}
+    
+#hamburger-menu:checked ~ nav {
+    display: inline-block;
+}
+     
 a {
     color: #FF6600;
     font-family: 'Quicksand', Tahoma, Verdana, sans-serif;
@@ -112,7 +181,7 @@ h1, h2 {
     }
 
 /*mobile styles*/
-@media only screen and (max-width:480px) {
+@media only screen and (max-width:790px) {
 
 	html {
 	background: radial-gradient(#44788D,#F09494);
@@ -124,18 +193,20 @@ body {
 	padding: 0;
 }
 
-pre {
-	font-size: .8em;
-	padding: .5em;
-	background: rgb(246,247,160);
-	border-bottom: 2px solid #666;
-	line-height: 1.6;
-	font-weight: bold;
+.logo img {
+    float: center;
+    max-width: 213px;
+    max-height: 134px;
+    position: absolute;
+    left: 50%;
+    top: 50%; 
+    margin-left: -200px;
+    margin-top: -350px;
 }
 }
 
 /*tablet styles*/
-@media only screen and (min-width:481px) and (max-width:1200px) {
+@media only screen and (min-width:791px) and (max-width:1300px) {
 
 body {
 	width: 80%;
@@ -144,17 +215,42 @@ body {
 	box-shadow: 2px 2px 10px 3px #888888;
 }
 
-pre {
-	font-size: 1em;
-	padding: .5em;
-	background: white;
-	border-bottom: 2px solid #666;
-	line-height: 1.6;
+.logo { 
+    background: #98B5C7;
+    border-radius: 30px 0px 30px 0px;
+    margin-top: -25px;
+    margin-left: -25px;
+    margin-right: 25px;
+    margin-bottom: 15px;
+}
+
+.logo img {
+    float: relative;
+    max-width: 203px;
+    max-height: 124px;
+    position: absolute;
+}
+
+nav {
+    display: block;
+}
+
+.hamburger-label {
+    display: none;
+}
+
+nav a{
+    font-size: 15px;
+}
+
+nav p{
+    padding-left: 20px;
+    font-size: 15px;
 }
 }
 
 /*desktop styles*/
-@media only screen and (min-width:1201px) {
+@media only screen and (min-width:1301px) {
 	
  body {
  width: 1200px;
@@ -163,11 +259,38 @@ pre {
 	box-shadow: 2px 2px 10px 3px #888888;
 }
 
-pre {
-	font-size: 1.2em;
-	padding: 1em .5em;
-	background: rgb(216,233,204);
-	border-bottom: 2px solid #666;
-	line-height: 1.6;
+.logo { 
+    background: #98B5C7;
+    border-radius: 30px 0px 30px 0px;
+    margin-top: -25px;
+    margin-left: -25px;
+    margin-right: 25px;
+    margin-bottom: 15px;
+}
+
+.logo img {
+    float: left;
+    max-width: 203px;
+    max-height: 124px;
+    position: relative;
+    padding-left: 145px;
+    padding-top: 10px;
+}
+
+nav {
+    display: block;
+}
+
+.hamburger-label {
+    display: none;
+}
+
+nav a{
+    font-size: 15px;
+}
+
+nav p{
+    padding-left: 20px;
+    font-size: 15px;
 }
 }
