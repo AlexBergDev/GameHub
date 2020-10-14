@@ -180,26 +180,44 @@ h1, h2 {
     color: white;
 }
 
-.catbar{
-    overflow: hidden;
+.cat{
     background-color: #7793AA;
     border-radius: 50px;
-    padding: 6px;
+    padding: 15px;
+    padding-left: 35px;
 }
 
-.catbar a{
-    font-size: 19px;
+.cat ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.cat a {
+    display: block;
+}
+
+.catbarleft {
+    float: left;
+}
+
+.catbarleft ul li {
+    float: left;
+}
+
+.catbarright ul li {
+    float: right;
+}
+
+.cat a{
+    font-size: 18px;
     color: white;
-    margin-right: 16px;
+    margin-right: 30px;
     font-style: bold;
-    display: inline-block;
 }
 
-.catbar li{
-    display: inline-block
-}
-
-.catbar a:hover {
+.cat a:hover {
     text-decoration: underline;
 }
 
@@ -209,6 +227,7 @@ h1, h2 {
     border-radius: 50px;
     padding: 8px;
     max-width: 235px;
+    position: relative;
 } 
 
 .navdown a{
@@ -248,10 +267,6 @@ h1, h2 {
     font-size: 13px;
     margin-left: 70px;
     margin-top: 20px;
-}
-
-.allcat a{
-    display: block;
 }
 
 /*mobile styles*/
