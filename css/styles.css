@@ -184,14 +184,15 @@ h1, h2 {
     overflow: hidden;
     background-color: #7793AA;
     border-radius: 50px;
-    padding: 8px;
+    padding: 6px;
 }
 
 .catbar a{
     font-size: 19px;
     color: white;
-    margin-right: 12px;
-    font-style: bold
+    margin-right: 16px;
+    font-style: bold;
+    display: inline-block;
 }
 
 .catbar li{
@@ -249,6 +250,10 @@ h1, h2 {
     margin-top: 20px;
 }
 
+.allcat a{
+    display: block;
+}
+
 /*mobile styles*/
 @media only screen and (max-width:790px) {
 
@@ -260,6 +265,20 @@ background: radial-gradient(#44788D,#F09494);
 body {
     padding: 0;
     margin: 0;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 40% 30% 30%;
+    grid-template-rows: min-content min-content min-content max-content min-content min-content;
+    gap: 0px 0px;
+    grid-template-areas:
+      "logo logo navup"
+      "promotion promotion promotion"
+      "cat cat cat"
+      "main main main"
+      "navdown navdown navdown"
+      "copyright copyright copyright";
 }
 
 .logo img {
@@ -284,7 +303,7 @@ body {
     margin-top: 100px;
 }
 
-.navdown{
+.navdown .copyright{
     overflow: hidden;
     background-color: #7793AA;
     border-radius: 50px;
@@ -292,21 +311,25 @@ body {
     max-width: 235px;
     margin-right: -60px;
 }
+
+.promotion img{
+    visibility: hidden;
+}
 }
 
 /*tablet styles*/
-@media only screen and (min-width:791px) and (max-width:1300px) {
+@media only screen and (min-width:791px) and (max-width:1350px) {
 
 body {
 	width: 80%;
 	padding: 25px;
-	border-radius: 30px;
+	border-radius: 50px;
 	box-shadow: 2px 2px 10px 3px #888888;
 }
 
 .logo { 
     background: #98B5C7;
-    border-radius: 30px 0px 30px 0px;
+    border-radius: 50px 0px 50px 0px;
     margin-top: -25px;
     margin-left: -25px;
     margin-right: 25px;
@@ -348,18 +371,18 @@ nav p{
 }
 
 /*desktop styles*/
-@media only screen and (min-width:1301px) {
+@media only screen and (min-width:1351px) {
 	
  body {
- width: 1200px;
- padding: 25px;
-	border-radius: 30px;
+    width: 1200px;
+    padding: 25px;
+	border-radius: 50px;
 	box-shadow: 2px 2px 10px 3px #888888;
 }
 
 .logo { 
     background: #98B5C7;
-    border-radius: 30px 0px 30px 0px;
+    border-radius: 50px 0px 50px 0px;
     margin-top: -25px;
     margin-left: -25px;
     margin-right: 25px;
