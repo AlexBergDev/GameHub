@@ -39,7 +39,7 @@ html, body {
 }
 
 html {
-	background: radial-gradient(#44788D,#F09494);
+	background: radial-gradient(#49798D,#AE8991);
 }
 
 body {
@@ -732,10 +732,15 @@ body {
     grid-template-rows: min-content min-content min-content max-content min-content min-content;
     gap: 0px 0px;
     grid-template-areas:
-      "logo logo navup"
+      "navup navup navup"
+      "logo logo logo"
       "promotion promotion promotion"
       "cat cat cat"
       "main main main"
+      "shop1 shop1 shop1"
+      "shop2 shop2 shop2"
+      "shop3 shop3 shop3"
+      "shop4 shop4 shop4"
       "navdown navdown navdown"
       "copyright copyright copyright";
 }
