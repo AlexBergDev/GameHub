@@ -182,10 +182,16 @@ body {
     background: #44788D;
     margin-right: 12px; /*space between*/
     box-shadow: 1px 1px 2px 1px #3b687a;
+    -webkit-filter: brightness(100%);
 } 
 
 .navigation a:hover{
-    background: #264957;
+    -webkit-filter: brightness(60%);
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
 }
 
 .navigation a i{
@@ -193,10 +199,6 @@ body {
     font-size: 19px;
     color: white;
     float: relative;
-}
-
-.navigation a i:hover{
-  color:rgb(239, 237, 253);  
 }
 
 .navigation {
@@ -222,6 +224,7 @@ body {
     float: left;
     margin-top: 4px;
     margin-left: 3px;
+    -webkit-filter: brightness(100%);
 }
 
 .btnadd {
@@ -237,6 +240,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-top: 185px;
+    -webkit-filter: brightness(100%);
 }
 
 .shop1 img{
@@ -245,6 +249,16 @@ body {
     position: relative;
     padding-left: 62px;
     padding-top: 5px;
+    -webkit-filter: brightness(100%);
+}
+
+.shop1 img:hover {
+    -webkit-filter: brightness(60%);
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
 }
 
 .shop1 p{
@@ -258,6 +272,16 @@ body {
     position: relative;
     padding-left: 62px;
     padding-top: 5px;
+    -webkit-filter: brightness(100%);
+}
+
+.shop2 img:hover {
+    -webkit-filter: brightness(60%);
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
 }
 
 .shop2 p{
@@ -271,6 +295,16 @@ body {
     position: relative;
     padding-left: 62px;
     padding-top: 5px;
+    -webkit-filter: brightness(100%);
+}
+
+.shop3 img:hover {
+    -webkit-filter: brightness(60%);
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
 }
 
 .shop3 p{
@@ -284,6 +318,16 @@ body {
     position: relative;
     padding-left: 62px;
     padding-top: 5px;
+    -webkit-filter: brightness(100%);
+}
+
+.shop4 img:hover {
+    -webkit-filter: brightness(60%);
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
 }
 
 .shop4 p{
@@ -297,6 +341,16 @@ body {
     position: relative;
     padding-left: 62px;
     padding-top: 5px;
+    -webkit-filter: brightness(100%);
+}
+
+.shop5 img:hover {
+    -webkit-filter: brightness(60%);
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
 }
 
 .shop5 p{
@@ -310,6 +364,16 @@ body {
     position: relative;
     padding-left: 62px;
     padding-top: 5px;
+    -webkit-filter: brightness(100%);
+}
+
+.shop6 img:hover {
+    -webkit-filter: brightness(60%);
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
 }
 
 .shop6 p{
@@ -323,6 +387,16 @@ body {
     position: relative;
     padding-left: 62px;
     padding-top: 5px;
+    -webkit-filter: brightness(100%);
+}
+
+.shop7 img:hover {
+    -webkit-filter: brightness(60%);
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
 }
 
 .shop7 p{
@@ -336,6 +410,16 @@ body {
     position: relative;
     padding-left: 62px;
     padding-top: 5px;
+    -webkit-filter: brightness(100%);
+}
+
+.shop8 img:hover {
+    -webkit-filter: brightness(60%);
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
 }
 
 .shop8 p{
@@ -349,6 +433,16 @@ body {
     position: relative;
     padding-left: 62px;
     padding-top: 5px;
+    -webkit-filter: brightness(100%);
+}
+
+.shop9 img:hover {
+    -webkit-filter: brightness(60%);
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
 }
 
 .shop9 p{
@@ -362,6 +456,16 @@ body {
     position: relative;
     padding-left: 62px;
     padding-top: 5px;
+    -webkit-filter: brightness(100%);
+}
+
+.shop10 img:hover {
+    -webkit-filter: brightness(60%);
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
 }
 
 .shop10 p{
@@ -370,14 +474,22 @@ body {
 }
 
 .btn:hover {
-    background: linear-gradient(to right, #813400 , #7A8993);
-    color: white;
+    -webkit-filter: brightness(60%);
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
     text-decoration: underline;
 }
 
 .btnadd:hover {
-    background: linear-gradient(to right, #813400 , #7A8993);
-    color: white;
+    -webkit-filter: brightness(60%);
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
     text-decoration: underline;
 }
 
@@ -462,9 +574,12 @@ h1, h2 {
     letter-spacing: -.02em;
     color: white;
     text-align: center;
-    text-shadow: white;
+    text-shadow: 0 0 2px #435E7D;
 }
 
+.main {
+    padding-top: 30px;
+}
 .cat{
     background-color: #7793AA;
     border-radius: 50px;
@@ -500,13 +615,16 @@ h1, h2 {
     color: white;
     margin-right: 30px;
     font-style: bold;
+    -webkit-filter: brightness(100%);
 }
 
 .cat a:hover {
-    text-decoration: underline;
-    color: rgb(220, 237, 247);
-    text-shadow: 2px 2px 4px 2px #44788D;
-
+    -webkit-filter: brightness(70%);
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
 }
 
 .navdown{
@@ -528,6 +646,7 @@ h1, h2 {
     background: #44788D;
     margin-right: 12px; /*space between*/
     box-shadow: 1px 1px 2px 1px #3b687a;
+    -webkit-filter: brightness(100%);
 } 
 
 .navdown a i{
@@ -548,6 +667,16 @@ h1, h2 {
     font-size: 3em;
     text-shadow: 2px 2px 4px 2px white;
     margin-top: 100px;
+    -webkit-filter: brightness(100%);
+}
+
+.copyright a:hover{
+    -webkit-filter: brightness(60%);
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
 }
 
 .copyright p{
@@ -560,7 +689,12 @@ h1, h2 {
 }
 
 .navdown a:hover{
-    background: #264957;
+    -webkit-filter: brightness(60%);
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
 }
 
 /*mobile styles*/
