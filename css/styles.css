@@ -20,15 +20,18 @@ body {
 
 .grid-container {
     display: grid;
-    grid-template-columns: 40% 30% 30%;
-    grid-template-rows: min-content min-content min-content max-content min-content;
+    grid-template-columns: 25% 15% 10% 20% 5% 25%;
+    grid-template-rows: min-content min-content min-content max-content min-content min-content min-content min-content;
     gap: 0px 0px;
     grid-template-areas:
-      "logo navup navup"
-      "promotion promotion promotion"
-      "cat cat cat"
-      "main main main"
-      "navdown copyright copyright";
+      "logo      logo      navup     navup     navup     navup"
+      "promotion promotion promotion promotion promotion promotion"
+      "cat       cat       cat       cat       cat       cat"
+      "main      main      main      main      main      main"
+      "shop1     shop2     shop2     shop3     shop3     shop4"
+      "shop5     shop6     shop6     shop7     shop7     shop8"
+      "shop9     shop10    shop10    shoppic   shoppic   shoppic"
+      "navdown   navdown   copyright copyright copyright copyright";
 }
 
 .main { grid-area: main; }
@@ -38,6 +41,87 @@ body {
 .cat { grid-area: cat; }
 .navdown { grid-area: navdown; }
 .copyright { grid-area: copyright; }
+.shop1 { grid-area: shop1}
+.shop2 { grid-area: shop2}
+.shop3 { grid-area: shop3}
+.shop4 { grid-area: shop4}
+.shop5 { grid-area: shop5}
+.shop6 { grid-area: shop6}
+.shop7 { grid-area: shop7}
+.shop8 { grid-area: shop8}
+.shop9 { grid-area: shop9}
+.shop10 { grid-area: shop10}
+
+.shop1{
+    background: #3b687a;
+    border-radius: 50px;
+    block-size: 290px;
+    margin: 40px;
+}
+
+.shop2{
+    background: #3b687a;
+    border-radius: 50px;
+    block-size: 290px;
+    margin: 40px;
+}
+
+.shop3{
+    background: #3b687a;
+    border-radius: 50px;
+    block-size: 290px;
+    margin: 40px;
+}
+
+.shop4{
+    background: #3b687a;
+    border-radius: 50px;
+    block-size: 290px;
+    margin: 40px;
+}
+
+.shop5{
+    background: #3b687a;
+    border-radius: 50px;
+    block-size: 290px;
+    margin: 40px;
+}
+
+.shop6{
+    background: #3b687a;
+    border-radius: 50px;
+    block-size: 290px;
+    margin: 40px;
+}
+
+.shop7{
+    background: #3b687a;
+    border-radius: 50px;
+    block-size: 290px;
+    margin: 40px;
+}
+
+.shop8{
+    background: #3b687a;
+    border-radius: 50px;
+    block-size: 290px;
+    margin: 40px;
+}
+
+.shop9{
+    background: #3b687a;
+    border-radius: 50px;
+    block-size: 290px;
+    margin: 40px;
+}
+
+.shop10{
+    background: #3b687a;
+    border-radius: 50px;
+    block-size: 290px;
+    margin: 40px;
+}
+
 
 .logo img {
     float: left;
@@ -59,11 +143,19 @@ body {
     box-shadow: 1px 1px 2px 1px #3b687a;
 } 
 
+.navigation a:hover{
+    background: #264957;
+}
+
 .navigation a i{
     padding: 1px 1px;
     font-size: 19px;
     color: white;
     float: relative;
+}
+
+.navigation a i:hover{
+  color:rgb(239, 237, 253);  
 }
 
 .navigation {
@@ -90,8 +182,34 @@ body {
     margin-top: 2px;
     margin-left: 3px;
 }
-  
+
+.btnadd {
+    background: linear-gradient(to right, #FF6600 , #A5BBC9);
+    color: white;
+    font-size: 16px;
+    padding: 9px 40px;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 115px
+}
+
+.shop1 p{
+    text-align: center;
+    margin-top: 20px;
+}
+
 .btn:hover {
+    background: linear-gradient(to right, #813400 , #7A8993);
+    color: white;
+    text-decoration: underline;
+}
+
+.btnadd:hover {
     background: linear-gradient(to right, #813400 , #7A8993);
     color: white;
     text-decoration: underline;
@@ -178,6 +296,7 @@ h1, h2 {
     letter-spacing: -.02em;
     -webkit-font-smoothing: antialiased;
     color: white;
+    text-align: center;
 }
 
 .cat{
@@ -219,6 +338,9 @@ h1, h2 {
 
 .cat a:hover {
     text-decoration: underline;
+    color: rgb(220, 237, 247);
+    text-shadow: 2px 2px 4px 2px #44788D;
+
 }
 
 .navdown{
@@ -267,6 +389,10 @@ h1, h2 {
     font-size: 13px;
     margin-left: 70px;
     margin-top: 20px;
+}
+
+.navdown a:hover{
+    background: #264957;
 }
 
 /*mobile styles*/
@@ -352,7 +478,7 @@ body {
 }
 
 .logo img {
-    float: relative;
+    float: absolute;
     max-width: 203px;
     max-height: 124px;
     position: absolute;
