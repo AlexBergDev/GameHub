@@ -179,7 +179,7 @@ body {
     border-radius: 50px;
     text-align: center;
     float: left;
-    margin-top: 2px;
+    margin-top: 4px;
     margin-left: 3px;
 }
 
@@ -195,12 +195,137 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 115px
+    margin-top: 185px;
+}
+
+.shop1 img{
+    float: left;
+    max-height: 134px;
+    position: relative;
+    padding-left: 62px;
+    padding-top: 5px;
 }
 
 .shop1 p{
     text-align: center;
-    margin-top: 20px;
+    margin-top: 23px;
+}
+
+.shop2 img{
+    float: left;
+    max-height: 134px;
+    position: relative;
+    padding-left: 62px;
+    padding-top: 5px;
+}
+
+.shop2 p{
+    text-align: center;
+    margin-top: 23px;
+}
+
+.shop3 img{
+    float: left;
+    max-height: 134px;
+    position: relative;
+    padding-left: 62px;
+    padding-top: 5px;
+}
+
+.shop3 p{
+    text-align: center;
+    margin-top: 23px;
+}
+
+.shop4 img{
+    float: left;
+    max-height: 134px;
+    position: relative;
+    padding-left: 62px;
+    padding-top: 5px;
+}
+
+.shop4 p{
+    text-align: center;
+    margin-top: 23px;
+}
+
+.shop5 img{
+    float: left;
+    max-height: 134px;
+    position: relative;
+    padding-left: 62px;
+    padding-top: 5px;
+}
+
+.shop5 p{
+    text-align: center;
+    margin-top: 23px;
+}
+
+.shop6 img{
+    float: left;
+    max-height: 134px;
+    position: relative;
+    padding-left: 62px;
+    padding-top: 5px;
+}
+
+.shop6 p{
+    text-align: center;
+    margin-top: 23px;
+}
+
+.shop7 img{
+    float: left;
+    max-height: 134px;
+    position: relative;
+    padding-left: 62px;
+    padding-top: 5px;
+}
+
+.shop7 p{
+    text-align: center;
+    margin-top: 23px;
+}
+
+.shop8 img{
+    float: left;
+    max-height: 134px;
+    position: relative;
+    padding-left: 62px;
+    padding-top: 5px;
+}
+
+.shop8 p{
+    text-align: center;
+    margin-top: 23px;
+}
+
+.shop9 img{
+    float: left;
+    max-height: 134px;
+    position: relative;
+    padding-left: 62px;
+    padding-top: 5px;
+}
+
+.shop9 p{
+    text-align: center;
+    margin-top: 23px;
+}
+
+.shop10 img{
+    float: left;
+    max-height: 134px;
+    position: relative;
+    padding-left: 62px;
+    padding-top: 5px;
+}
+
+.shop10 p{
+    text-align: center;
+    margin-top: 23px;
 }
 
 .btn:hover {
@@ -478,10 +603,11 @@ body {
 }
 
 .logo img {
-    float: absolute;
     max-width: 203px;
     max-height: 124px;
-    position: absolute;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 nav {
