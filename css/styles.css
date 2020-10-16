@@ -57,6 +57,7 @@ body {
     border-radius: 50px;
     block-size: 290px;
     margin: 40px;
+    box-shadow: 2px 2px 10px 3px #223852
 }
 
 .shop2{
@@ -64,6 +65,7 @@ body {
     border-radius: 50px;
     block-size: 290px;
     margin: 40px;
+    box-shadow: 2px 2px 10px 3px #223852
 }
 
 .shop3{
@@ -71,6 +73,7 @@ body {
     border-radius: 50px;
     block-size: 290px;
     margin: 40px;
+    box-shadow: 2px 2px 10px 3px #223852
 }
 
 .shop4{
@@ -78,6 +81,7 @@ body {
     border-radius: 50px;
     block-size: 290px;
     margin: 40px;
+    box-shadow: 2px 2px 10px 3px #223852
 }
 
 .shop5{
@@ -85,6 +89,7 @@ body {
     border-radius: 50px;
     block-size: 290px;
     margin: 40px;
+    box-shadow: 2px 2px 10px 3px #223852
 }
 
 .shop6{
@@ -92,6 +97,7 @@ body {
     border-radius: 50px;
     block-size: 290px;
     margin: 40px;
+    box-shadow: 2px 2px 10px 3px #223852
 }
 
 .shop7{
@@ -99,6 +105,7 @@ body {
     border-radius: 50px;
     block-size: 290px;
     margin: 40px;
+    box-shadow: 2px 2px 10px 3px #223852
 }
 
 .shop8{
@@ -106,6 +113,7 @@ body {
     border-radius: 50px;
     block-size: 290px;
     margin: 40px;
+    box-shadow: 2px 2px 10px 3px #223852
 }
 
 .shop9{
@@ -113,6 +121,7 @@ body {
     border-radius: 50px;
     block-size: 290px;
     margin: 40px;
+    box-shadow: 2px 2px 10px 3px #223852
 }
 
 .shop10{
@@ -120,6 +129,7 @@ body {
     border-radius: 50px;
     block-size: 290px;
     margin: 40px;
+    box-shadow: 2px 2px 10px 3px #223852
 }
 
 
@@ -475,6 +485,7 @@ h1, h2 {
     padding: 8px;
     max-width: 235px;
     position: relative;
+    margin-top: 100px;
 } 
 
 .navdown a{
@@ -505,6 +516,7 @@ h1, h2 {
     float: right;
     font-size: 3em;
     text-shadow: 2px 2px 4px 2px white;
+    margin-top: 100px;
 }
 
 .copyright p{
@@ -513,7 +525,7 @@ h1, h2 {
     color: #A5ACB4;
     font-size: 13px;
     margin-left: 70px;
-    margin-top: 20px;
+    margin-top: 120px;
 }
 
 .navdown a:hover{
