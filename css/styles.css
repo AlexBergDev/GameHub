@@ -674,6 +674,42 @@ nav {
 /*tablet styles*/
 @media only screen and (min-width:791px) and (max-width:1350px) {
 
+.grid-container {
+    display: grid;
+    grid-template-columns: 25% 15% 10% 20% 5% 25%;
+    grid-template-rows: min-content min-content min-content max-content min-content min-content min-content min-content;
+    gap: 0px 0px;
+    grid-template-areas:
+        "logo      logo      navup     navup     navup     navup"
+        "promotion promotion promotion promotion promotion promotion"
+        "cat       cat       cat       cat       cat       cat"
+        "main      main      main      main      main      main"
+        "shop1     shop1     shop1     shop2     shop2     shop2"
+        "shop3     shop3     shop3     shop4     shop4     shop4"
+        "shop5     shop5    shop5    shoppic   shoppic   shoppic"
+        "navdown   navdown   copyright copyright copyright copyright";
+}
+
+.shop6 {
+    display:none;
+}
+
+.shop7 {
+    display:none;
+}
+
+.shop8 {
+    display:none;
+}
+
+.shop9 {
+    display:none;
+}
+
+.shop10 {
+    display:none;
+}
+
 body {
 	width: 80%;
 	padding: 25px;
@@ -693,9 +729,11 @@ body {
 .logo img {
     max-width: 203px;
     max-height: 124px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    left: 50%;
+    top: 50%;
+    margin:auto;
+    display:block;
+    margin-top: 10px;
 }
 
 .navigation a{
@@ -768,6 +806,15 @@ body {
     display: inline-block;
 }
 
+.main h1{
+    padding-top: 60px;
+    margin-bottom: 20px;
+}
+
+.main a, .main p{
+    display: none;
+}
+
 .promotion img {
     border-radius: 50px;
     max-width: 90%;
@@ -795,6 +842,16 @@ body {
 
 .catbarright ul li {
     float: right;
+}
+
+.navdown{
+    overflow: hidden;
+    background-color: #7793AA;
+    border-radius: 50px;
+    padding: 8px;
+    max-width: 235px;
+    position: relative;
+    margin-top: 100px;
 }
 
 .navdown li {
@@ -945,11 +1002,11 @@ body {
 }
 
 .shop1 img{
-    float: left;
     max-height: 134px;
-    position: relative;
-    padding-left: 62px;
-    padding-top: 5px;
+    left: 50%;
+    top: 50%;
+    margin:auto;
+    display:block;
     -webkit-filter: brightness(100%);
 }
 
@@ -968,11 +1025,11 @@ body {
 }
 
 .shop2 img{
-    float: left;
     max-height: 134px;
-    position: relative;
-    padding-left: 62px;
-    padding-top: 5px;
+    left: 50%;
+    top: 50%;
+    margin:auto;
+    display:block;
     -webkit-filter: brightness(100%);
 }
 
@@ -991,11 +1048,11 @@ body {
 }
 
 .shop3 img{
-    float: left;
     max-height: 134px;
-    position: relative;
-    padding-left: 62px;
-    padding-top: 5px;
+    left: 50%;
+    top: 50%;
+    margin:auto;
+    display:block;
     -webkit-filter: brightness(100%);
 }
 
@@ -1014,11 +1071,11 @@ body {
 }
 
 .shop4 img{
-    float: left;
     max-height: 134px;
-    position: relative;
-    padding-left: 62px;
-    padding-top: 5px;
+    left: 50%;
+    top: 50%;
+    margin:auto;
+    display:block;
     -webkit-filter: brightness(100%);
 }
 
@@ -1037,11 +1094,11 @@ body {
 }
 
 .shop5 img{
-    float: left;
     max-height: 134px;
-    position: relative;
-    padding-left: 62px;
-    padding-top: 5px;
+    left: 50%;
+    top: 50%;
+    margin:auto;
+    display:block;
     -webkit-filter: brightness(100%);
 }
 
@@ -1179,7 +1236,7 @@ body {
     background: linear-gradient(to right, #FF6600 , #A5BBC9);
     color: white;
     font-size: 16px;
-    padding: 9px 40px;
+    padding: 13px 60px;
     border: none;
     cursor: pointer;
     border-radius: 50px;
@@ -1187,7 +1244,7 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 185px;
+    margin-top: 20px;
     -webkit-filter: brightness(100%);
 }
 }
