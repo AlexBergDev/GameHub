@@ -300,7 +300,6 @@ h1, h2 {
 
 html {
 background: radial-gradient(#44788D,#F09494);
-	
 }
 
 body {
@@ -329,7 +328,6 @@ body {
 .promotion{
     display:none;
 }
-
 
 .btnadd {
     background: linear-gradient(to right, #FF6600 , #A5BBC9);
@@ -601,6 +599,7 @@ body {
     overflow: hidden;
     background-color: #7793AA;
     padding: 8px;
+    margin-top: 40px;
 }
 
 .navdown li {
