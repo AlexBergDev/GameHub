@@ -385,12 +385,12 @@ body {
 
 .shop1 img{
     max-height: 164px;
-    right: 0px;
-    left: 0px;
+    left: 50%;
+    top: 50%;
     margin:auto;
     display:block;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     -webkit-filter: brightness(100%);
 }
 
