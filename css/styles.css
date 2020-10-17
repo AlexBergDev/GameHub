@@ -752,6 +752,12 @@ body {
     font-family: 'Avenir Next Rounded Pro Regular'
 }
 
+.copyright{
+    overflow: hidden;
+    background-color: #7793AA;
+    padding: 8px;
+}
+
 .navdown{
     overflow: hidden;
     background-color: #7793AA;
@@ -774,25 +780,27 @@ body {
 }
 
 .navdown a{
-    display: block;
-    width: 20px;
-    height: 20px;
+    width: 40px;
+    height: 40px;
     border-radius: 50px;
     background: #44788D;
-    margin-right: 12px;
+    margin-right: 20px;
+    margin-left: 20px;
     box-shadow: 1px 1px 2px 1px #3b687a;
     -webkit-filter: brightness(100%);
 } 
 
 .navdown a i{
-    padding: 0px 1px;
-    font-size: 19px;
+    padding: 4px 4px;
+    font-size: 32px;
     color: white;
     float: relative;
 }
 
-.iconsdown {
-    margin-left: 10px;
+.iconsdown{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
 }
 
 .navdown a:hover{
