@@ -483,34 +483,34 @@ body {
     text-decoration: underline;
 }
 
-nav {
+.navup nav {
     display: none;
 }
     
-#hamburger-menu{
+.navup #hamburger-menu{
     display: none;
 }
     
-#hamburger-menu:checked ~ nav {
+.navup #hamburger-menu:checked ~ nav {
     display: inline-block;
 }
 
-nav li {
+.navup nav li {
     display: inline-block;
 }
       
-nav ul {
+.navup nav ul {
     padding: 0px;
 }
         
-nav a {
+.navup nav a {
     color: #9d3400;
     text-decoration: none;
     padding: 10px;
     display: inline-block;
 }
       
-nav a:hover {
+.navup nav a:hover {
     text-decoration: underline;
 }
 
@@ -518,7 +518,7 @@ nav a:hover {
     font-weight: bold;
 }
     
-.hamburger-label{
+.navup .hamburger-label{
     float: right;
     color: #FFF;
     padding: 20px;
@@ -526,7 +526,7 @@ nav a:hover {
     display: inline-block;
 }
     
-#hamburger-menu:checked ~ nav {
+.navup #hamburger-menu:checked ~ nav {
     display: inline-block;
 }
      
@@ -610,68 +610,6 @@ h1, h2 {
     -o-transition: all 0.5s ease;
     -ms-transition: all 0.5s ease;
     transition: all 0.5s ease;
-}
-
-.navdown{
-    overflow: hidden;
-    background-color: #7793AA;
-    border-radius: 50px;
-    padding: 8px;
-    max-width: 235px;
-    position: relative;
-    margin-top: 100px;
-} 
-
-.navdown a{
-    display: block;
-    float: left;
-    width: 20px;
-    height: 20px;
-    border-radius: 50px;
-    background: #44788D;
-    margin-right: 12px; /*space between*/
-    box-shadow: 1px 1px 2px 1px #3b687a;
-    -webkit-filter: brightness(100%);
-} 
-
-.navdown a i{
-    padding: 1px 1px;
-    font-size: 19px;
-    color: white;
-    float: relative;
-}
-
-.iconsdown {
-    margin-left: 10px;
-    float: left;
-}
-
-.copyright a{
-    display: inline-block;
-    float: right;
-    font-size: 3em;
-    text-shadow: 2px 2px 4px 2px white;
-    margin-top: 100px;
-    -webkit-filter: brightness(100%);
-}
-
-.copyright a:hover{
-    -webkit-filter: brightness(60%);
-    -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
-    -ms-transition: all 0.5s ease;
-    transition: all 0.5s ease;
-}
-
-.copyright p{
-    float: left;
-    display: inline-block;
-    color: #A5ACB4;
-    font-size: 13px;
-    margin-left: 70px;
-    margin-top: 120px;
-    font-family: 'Avenir Next Rounded Pro Regular'
 }
 
 .navdown a:hover{
@@ -783,17 +721,87 @@ body {
     margin-top: 100px;
 }
 
-.navdown .copyright{
-    overflow: hidden;
-    background-color: #7793AA;
-    border-radius: 50px;
-    padding: 8px;
-    max-width: 235px;
-    margin-right: -60px;
-}
-
 .promotion img{
     visibility: hidden;
+}
+
+.copyright a{
+    display: inline-block;
+
+    float: right;
+    font-size: 4em;
+    text-shadow: 2px 2px 4px 2px white;
+    margin-top: 10px;
+    padding: 20px;
+    -webkit-filter: brightness(100%);
+}
+
+.copyright a:hover{
+    -webkit-filter: brightness(60%);
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.copyright p{
+    display: inline-block;
+    color: #A5ACB4;
+    font-size: 13px;
+    font-family: 'Avenir Next Rounded Pro Regular'
+}
+
+.navdown{
+    overflow: hidden;
+    background-color: #7793AA;
+    padding: 8px;
+}
+
+.navdown li {
+    display: inline-block;
+}
+      
+.navdown ul {
+    padding: 0px;
+}
+        
+.navdown a {
+    color: #9d3400;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+}
+
+.navdown a{
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    background: #44788D;
+    margin-right: 12px;
+    box-shadow: 1px 1px 2px 1px #3b687a;
+    -webkit-filter: brightness(100%);
+} 
+
+.navdown a i{
+    padding: 0px 1px;
+    font-size: 19px;
+    color: white;
+    float: relative;
+}
+
+.iconsdown {
+    margin-left: 10px;
+}
+
+.navdown a:hover{
+    -webkit-filter: brightness(60%);
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
 }
 }
 
@@ -824,19 +832,19 @@ body {
     margin-right: auto;
 }
 
-nav {
+.navup nav {
     display: block;
 }
 
-.hamburger-label {
+.navup .hamburger-label {
     display: none;
 }
 
-nav a{
+.navup nav a{
     font-size: 15px;
 }
 
-nav p{
+.navup nav p{
     padding-left: 20px;
     font-size: 15px;
 }
@@ -869,6 +877,73 @@ nav p{
 .catbarright ul li {
     float: right;
 }
+
+.navdown li {
+    display: inline-block;
+}
+      
+.navdown ul {
+    padding: 0px;
+}
+        
+.navdown a {
+    color: #9d3400;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+}
+
+.navdown a{
+    display: block;
+    float: left;
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    background: #44788D;
+    margin-right: 12px; /*space between*/
+    box-shadow: 1px 1px 2px 1px #3b687a;
+    -webkit-filter: brightness(100%);
+} 
+
+.navdown a i{
+    padding: 1px 1px;
+    font-size: 19px;
+    color: white;
+    float: relative;
+}
+
+.iconsdown {
+    margin-left: 10px;
+    float: left;
+}
+
+.copyright a{
+    display: inline-block;
+    float: right;
+    font-size: 3em;
+    text-shadow: 2px 2px 4px 2px white;
+    margin-top: 100px;
+    -webkit-filter: brightness(100%);
+}
+
+.copyright a:hover{
+    -webkit-filter: brightness(60%);
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.copyright p{
+    float: left;
+    display: inline-block;
+    color: #A5ACB4;
+    font-size: 13px;
+    margin-left: 70px;
+    margin-top: 120px;
+    font-family: 'Avenir Next Rounded Pro Regular'
+}
 }
 
 /*desktop styles*/
@@ -899,19 +974,19 @@ nav p{
     padding-top: 10px;
 }
 
-nav {
+.navup nav {
     display: block;
 }
 
-.hamburger-label {
+.navup .hamburger-label {
     display: none;
 }
 
-nav a{
+.navup nav a{
     font-size: 15px;
 }
 
-nav p{
+.navup nav p{
     padding-left: 20px;
     font-size: 15px;
 }
@@ -954,5 +1029,82 @@ nav p{
 
 .catbarright ul li {
     float: right;
+}
+
+.navdown{
+    overflow: hidden;
+    background-color: #7793AA;
+    border-radius: 50px;
+    padding: 8px;
+    max-width: 235px;
+    position: relative;
+    margin-top: 100px;
+}
+
+.navdown li {
+    display: inline-block;
+}
+      
+.navdown ul {
+    padding: 0px;
+}
+        
+.navdown a {
+    color: #9d3400;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+}
+
+.navdown a{
+    display: block;
+    float: left;
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    background: #44788D;
+    margin-right: 12px; /*space between*/
+    box-shadow: 1px 1px 2px 1px #3b687a;
+    -webkit-filter: brightness(100%);
+} 
+
+.navdown a i{
+    padding: 1px 1px;
+    font-size: 19px;
+    color: white;
+    float: relative;
+}
+
+.iconsdown {
+    margin-left: 10px;
+    float: left;
+}
+
+.copyright a{
+    display: inline-block;
+    float: right;
+    font-size: 3em;
+    text-shadow: 2px 2px 4px 2px white;
+    margin-top: 100px;
+    -webkit-filter: brightness(100%);
+}
+
+.copyright a:hover{
+    -webkit-filter: brightness(60%);
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.copyright p{
+    float: left;
+    display: inline-block;
+    color: #A5ACB4;
+    font-size: 13px;
+    margin-left: 70px;
+    margin-top: 120px;
+    font-family: 'Avenir Next Rounded Pro Regular'
 }
 }
