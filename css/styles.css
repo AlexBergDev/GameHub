@@ -656,8 +656,8 @@ nav {
 
 .main img{
     border-radius: 50px;
-    height: 245px;
-    width: 245px;
+    height: 295px;
+    width: 295px;
     left: 50%;
     top: 50%;
     margin:auto;
@@ -672,8 +672,8 @@ nav {
 
 .main{
     padding-top: 50px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
     display: inline-block;
     position: relative;
 }
