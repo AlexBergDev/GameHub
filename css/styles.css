@@ -757,6 +757,23 @@ input[type=submit]:hover {
 .containercontact a{
     font-size: 15px;
 }
+
+input[type=password] {
+    width: 100%;
+    background-color: #325e79;
+    padding: 15px;
+    padding-left: 35px;
+    padding-right: 35px;
+    font-family: 'Avenir Next Rounded Pro Medium', Tahoma, Verdana, sans-serif;
+    color: #bbd0df;
+    font-size: 20px;
+    border: 1px solid #325e79;
+    border-radius: 50px;
+    box-sizing: border-box;
+    margin-top: 12px;
+    margin-bottom: 19px;
+    resize: vertical;
+}
 }
 
 /*tablet styles*/
@@ -1425,7 +1442,7 @@ input[type=text], select, textarea {
     margin-top: 12px;
     margin-bottom: 19px;
     resize: vertical;
-  }
+}
   
 input[type=submit] {
     background: linear-gradient(to right, #FF6600 , #A5BBC9);
@@ -1484,6 +1501,23 @@ input[type=submit]:hover {
 
 .containercontact a{
     font-size: 15px;
+}
+
+input[type=password] {
+    width: 100%;
+    background-color: #89A5B7;
+    padding: 15px;
+    padding-left: 35px;
+    padding-right: 35px;
+    font-family: 'Avenir Next Rounded Pro Medium', Tahoma, Verdana, sans-serif;
+    color: #bbd0df;
+    font-size: 20px;
+    border: 1px solid #89A5B7;
+    border-radius: 50px;
+    box-sizing: border-box;
+    margin-top: 12px;
+    margin-bottom: 19px;
+    resize: vertical;
 }
 }
 
@@ -2084,7 +2118,7 @@ input[type=text], select, textarea {
     margin-top: 12px;
     margin-bottom: 19px;
     resize: vertical;
-  }
+}
   
 input[type=submit] {
     background: linear-gradient(to right, #FF6600 , #A5BBC9);
@@ -2117,7 +2151,6 @@ input[type=submit]:hover {
     transition: all 0.5s ease;
     text-decoration: underline;
 }
-  
 
 .containercontact {
     padding: 90px;
@@ -2146,5 +2179,27 @@ input[type=submit]:hover {
 
 .containercontact a{
     font-size: 15px;
+}
+
+.loginregister p{
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+input[type=password] {
+    width: 100%;
+    background-color: #89A5B7;
+    padding: 15px;
+    padding-left: 35px;
+    padding-right: 35px;
+    font-family: 'Avenir Next Rounded Pro Medium', Tahoma, Verdana, sans-serif;
+    color: #bbd0df;
+    font-size: 20px;
+    border: 1px solid #89A5B7;
+    border-radius: 50px;
+    box-sizing: border-box;
+    margin-top: 12px;
+    margin-bottom: 19px;
+    resize: vertical;
 }
 }
