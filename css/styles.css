@@ -774,6 +774,73 @@ input[type=password] {
     margin-bottom: 19px;
     resize: vertical;
 }
+
+.supportimg img{
+    display: none;
+}
+
+.support {
+    margin: 50px;
+}
+
+.support p{
+    font-size: 15px;
+}
+
+.productimg{
+    overflow: hidden;
+    margin-top: 80px;
+    border-radius: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 50px;
+    background-color: #748EA1 
+}
+
+.productimg img{
+    max-height: 220px;
+    left: 50%;
+    top: 50%;
+    margin:auto;
+    display:block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.product {
+    margin: 45px;
+}
+
+.product h1{
+    font-size: 50px;
+}
+
+.product h2{
+    font-size: 35px;
+}
+
+.product p{
+    font-size: 10px;
+    letter-spacing: normal;
+    color: #CAD0D7;
+    display: block;
+    float: left;
+    line-height: 16px; 
+    margin: 40px;
+}
+
+.product a{
+    float: left;
+    display: block;
+    margin-top: 28px;
+}
+
+.product .btn{
+    float: right;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
 }
 
 /*tablet styles*/
@@ -1519,6 +1586,71 @@ input[type=password] {
     margin-bottom: 19px;
     resize: vertical;
 }
+
+.supportimg img{
+    display: none;
+}
+
+.productimg{
+    padding: 90px;
+    padding-left: 40px;
+    padding-right: 40px;
+    overflow: hidden;
+    background-color: #748EA1;
+    border-radius: 50px;
+    padding-top: 30px;
+    margin-top: 25px;
+    margin-top: 50px;
+    display: inline-block;
+    position: relative;
+}
+
+.productimg img{
+    max-width: 240px;
+}
+
+.product{
+    overflow: hidden;
+    width: 35%;
+    display: inline-block;
+    margin-left: 15%;
+}
+
+.product h1{
+    font-size: 30px;
+    display: block;
+    float: left;
+    margin-top: 10px;
+}
+
+.product h2{
+    font-size: 20px;
+    margin: 0px;
+    margin-bottom: 20px;
+    display: block;
+    float: left;
+}
+
+.product p{
+    font-size: 10px;
+    letter-spacing: normal;
+    color: #CAD0D7;
+    display: block;
+    float: left;
+    line-height: 16px;
+}
+
+.product a{
+    float: left;
+    display: block;
+    margin-top: 28px;
+}
+
+.product .btn{
+    float: left;
+    display: block;
+    margin-top: 20px;
+}
 }
 
 /*desktop styles*/
@@ -1556,7 +1688,7 @@ input[type=password] {
     height: 20px;
     border-radius: 50px;
     background: #44788D;
-    margin-right: 12px; /*space between*/
+    margin-right: 12px;
     box-shadow: 2px 2px 10px 3px #223852
     -webkit-filter: brightness(100%);
 } 
@@ -2201,5 +2333,119 @@ input[type=password] {
     margin-top: 12px;
     margin-bottom: 19px;
     resize: vertical;
+}
+
+.support {
+    margin-top: 35px;
+    height: 553px;
+    width: 300px;
+    float: left;
+    overflow: hidden;
+    background-color: #748EA1;
+    border-radius: 50px;
+    padding: 40px;
+    padding-top: 0px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: inline-block;
+    position: relative;
+}
+
+.support h1{
+    font-size: 60px;
+}
+
+.support p{
+    font-size: 16px;
+}
+
+.supportimg{
+    float: right;
+    display: inline-block;
+    max-height: 400px;
+    max-width: 400px;
+    margin-left: 320px;
+    
+}
+
+.supportimg img{
+    float: right;
+    display: inline-block;
+    max-height: 650px;
+    max-width: 650px;
+    margin-top: 20px;
+    margin-right: 40px;
+}
+
+.checked {
+    color: orange;
+}
+
+.support span{
+    text-align: justify;
+    display: inline-block;
+    position: relative;
+}
+
+.productimg{
+    overflow: hidden;
+    background-color: #748EA1;
+    border-radius: 50px;
+    float: left;
+    width: 45%;
+    height: 80%;
+    margin-top: 60px;
+    margin-left: 40px;
+}
+
+.productimg img{
+    width: 240px;
+    padding: 155px;
+    padding-top: 120px;
+    padding-bottom: 170px;
+}
+
+.product{
+    overflow: hidden;
+    float: right;
+    width: 25%;
+    margin-top: 140px;
+    margin-right: 165px;
+}
+
+.product h1{
+    font-size: 45px;
+    display: block;
+    float: left;
+    margin-top: 10px;
+}
+
+.product h2{
+    font-size: 25px;
+    margin: 0px;
+    margin-bottom: 20px;
+    display: block;
+    float: left;
+}
+
+.product p{
+    font-size: 10px;
+    letter-spacing: normal;
+    color: #CAD0D7;
+    display: block;
+    float: left;
+    line-height: 16px;
+}
+
+.product a{
+    float: left;
+    display: block;
+    margin-top: 28px;
+}
+
+.product .btn{
+    float: right;
+    display: block;
+    margin-top: 20px;
 }
 }
