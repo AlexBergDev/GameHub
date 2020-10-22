@@ -841,6 +841,118 @@ input[type=password] {
     margin-top: 20px;
     margin-bottom: 50px;
 }
+
+.cart{
+    overflow: hidden;
+    background-color: #748EA1;
+    border-radius: 50px;
+    height: 35%;
+    margin: 22px;
+    margin-top: 60px;
+    padding: 60px;
+}
+
+.cart h1, .containercheckout h1{
+    font-size: 45px;
+    display: block;
+    margin-top: 0px;
+}
+
+.containercheckout{
+    overflow: hidden;
+    background-color: #748EA1;
+    border-radius: 50px;
+    height: 30%;
+    margin-top: 60px;
+    margin: 22px;
+    padding: 20px;
+    padding: 60px;
+    margin-bottom: 20px;
+}
+
+hr.line {
+    border: 1px solid white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+h3 {
+    color: #FF6600;
+    display: block;
+}
+
+.cart a{
+    margin-top: 0px;
+}
+
+.cart p{
+    color: #ffffff;
+    text-decoration: normal;
+}
+
+.containercheckout .btn{
+    margin-top: 20px;
+    text-align: center;
+    display: block;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+  
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #839DAF;
+    border-radius: 50%;
+}
+  
+.container:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+.container input:checked ~ .checkmark {
+    background-color: #839DAF;
+}
+  
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+  
+.container input:checked ~ .checkmark:after {
+    display: block;
+}
+  
+.container .checkmark:after {
+       top: 5px;
+      left: 5px;
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      background: white;
+}
 }
 
 /*tablet styles*/
@@ -1651,6 +1763,134 @@ input[type=password] {
     display: block;
     margin-top: 20px;
 }
+
+.cart{
+    overflow: hidden;
+    background-color: #748EA1;
+    border-radius: 50px;
+    height: 35%;
+    margin-left: 22px;
+    margin-top: 60px;
+    padding: 60px;
+}
+
+.cart h1, .containercheckout h1{
+    font-size: 45px;
+    display: block;
+    margin-top: 0px;
+}
+
+.containercheckout{
+    overflow: hidden;
+    background-color: #748EA1;
+    border-radius: 50px;
+    height: 35%;
+    margin-top: 60px;
+    margin-right: 22px;
+    padding: 20px;
+    padding: 60px;
+}
+
+hr.line {
+    border: 1px solid white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+h3 {
+    color: #FF6600;
+    display: block;
+}
+
+.cart a{
+    margin-top: 0px;
+}
+
+.cart p{
+    color: #ffffff;
+    text-decoration: normal;
+}
+
+.containercheckout .btn{
+    margin-top: 40px;
+    text-align: center;
+    display: block;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+  
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #839DAF;
+    border-radius: 50%;
+}
+  
+.container:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+.container input:checked ~ .checkmark {
+    background-color: #839DAF;
+}
+  
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+  
+.container input:checked ~ .checkmark:after {
+    display: block;
+}
+  
+.container .checkmark:after {
+       top: 5px;
+      left: 5px;
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      background: white;
+}
+
+.ccform input[type=text], select, textarea {
+    width: 100%;
+    background-color: #89A5B7;
+    padding: 5px;
+    padding-left: 35px;
+    padding-right: 35px;
+    font-family: 'Avenir Next Rounded Pro Medium', Tahoma, Verdana, sans-serif;
+    color: #bbd0df;
+    font-size: 15px;
+    border: 1px solid #89A5B7;
+    border-radius: 50px;
+    box-sizing: border-box;
+    margin-top: 8px;
+    margin-bottom: 13px;
+    resize: vertical;
+}
 }
 
 /*desktop styles*/
@@ -2448,4 +2688,133 @@ input[type=password] {
     display: block;
     margin-top: 20px;
 }
+
+.cart{
+    overflow: hidden;
+    background-color: #748EA1;
+    border-radius: 50px;
+    float: left;
+    width: 28%;
+    height: 60%;
+    margin-left: 22px;
+    margin-top: 60px;
+    padding: 90px;
+}
+
+.cart h1, .containercheckout h1{
+    font-size: 45px;
+    display: block;
+    margin-top: 0px;
+
+}
+
+.containercheckout{
+    overflow: hidden;
+    background-color: #748EA1;
+    border-radius: 50px;
+    float: right;
+    width: 28%;
+    height: 60%;
+    margin-top: 60px;
+    margin-right: 22px;
+    padding: 20px;
+    padding: 90px;
+}
+
+hr.line {
+    border: 1px solid white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+h3 {
+    color: #FF6600;
+    display: block;
+}
+
+.cart a{
+    margin-top: 0px;
+}
+
+.cart p{
+    color: #ffffff;
+    text-decoration: normal;
+}
+
+.containercheckout .btn{
+    margin-left: 90px;
+    margin-top: 40px;
+}
+
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+  
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #839DAF;
+    border-radius: 50%;
+}
+  
+.container:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+.container input:checked ~ .checkmark {
+    background-color: #839DAF;
+}
+  
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+  
+.container input:checked ~ .checkmark:after {
+    display: block;
+}
+  
+.container .checkmark:after {
+       top: 5px;
+      left: 5px;
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      background: white;
+}
+
+.ccform input[type=text], select, textarea {
+    width: 100%;
+    background-color: #89A5B7;
+    padding: 5px;
+    padding-left: 35px;
+    padding-right: 35px;
+    font-family: 'Avenir Next Rounded Pro Medium', Tahoma, Verdana, sans-serif;
+    color: #bbd0df;
+    font-size: 15px;
+    border: 1px solid #89A5B7;
+    border-radius: 50px;
+    box-sizing: border-box;
+    margin-top: 8px;
+    margin-bottom: 13px;
+    resize: vertical;
 }
