@@ -846,7 +846,7 @@ input[type=password] {
     overflow: hidden;
     background-color: #748EA1;
     border-radius: 50px;
-    height: 35%;
+    height: 30%;
     margin: 22px;
     margin-top: 60px;
     padding: 60px;
@@ -860,13 +860,12 @@ input[type=password] {
 
 .containercheckout{
     overflow: hidden;
-    background-color: #748EA1;
     border-radius: 50px;
-    height: 30%;
+    height: 46%;
     margin-top: 60px;
     margin: 22px;
     padding: 20px;
-    padding: 60px;
+    padding: 40px;
     margin-bottom: 20px;
 }
 
@@ -1784,7 +1783,7 @@ input[type=password] {
     overflow: hidden;
     background-color: #748EA1;
     border-radius: 50px;
-    height: 35%;
+    height: 38%;
     margin-top: 60px;
     margin-right: 22px;
     padding: 20px;
