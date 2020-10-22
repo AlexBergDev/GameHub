@@ -1,36 +1,87 @@
 <!doctype html>
 <html>
     <head>
-        <title>GameHub - Checkout</title>
-        <meta name="description" content="Buy your favorite games for the best prices!">
+        <title>GameHub - Product Preview</title>
+        <meta name="description" content="Check out amazing games!">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/styles.css" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/1abcb9173a.js" crossorigin="anonymous"></script>
     </head>
     <body>
-        <header>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="chat.html">Chat</a></li>
-                    <li><a href="index.html">Search</a></li>
-                    <li><a href="checkout.html">Cart</a></li>
-                </ul>
-            </nav>
-        </header>
-        <main>
-            <h1>Checkout</h1>
-            <p>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit amet</p>
-            <p> Lorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit amet</p>
-        </main>
-        <footer>
-          <nav>
-            <ul>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="chat.html">Chat</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="shipping.html">Shipping</a></li>
-            </ul>
-        </nav>
-            GameHub &copy;
-        </footer>
+        <a name="top"></a>
+            <div class="grid-container">
+                <div class="logo">
+                        <a href="index.html">
+                            <img src="images/logo.png" alt="GameHub Logo">
+                            </a>
+                </div>
+                <div class="navup">
+                    <label class="hamburger-label" for="hamburger-menu"><i class="fas fa-bars"></i></label>
+                    <input type="checkbox" id="hamburger-menu">
+                    <nav>
+                        <ul>
+                            <div class="navigation">
+                                <button class="btn">LOGIN</button>
+                                <div class="icons">
+                                    <div class="iconsdown">
+                                    <li><a href="index.html" class="current"><i class="fas fa-home"></i></a></li>
+                                    <li><a href="chat.html"><i class="fas fa-comment-alt"></i></a></li>
+                                    <li><a href="index.html"><i class="fas fa-search"></i></a></li>
+                                    <li><a href="checkout.html"><i class="fas fa-shopping-cart"></i></a></li>
+                                    </div>
+                                 </div>
+                            </div>
+                        </ul>
+                      <p>Not a member yet? <a href="register.html">Register for free!</a></p>
+                    </nav>
+                </div>
+                <div class="main">
+                    <div class="cart">
+                        <h1>Your Cart</h1>
+                        <h3>2 Item(s) in your cart</h3>
+                        <hr class="line">
+                        <p>Playstation Game - N1</p>
+                        <hr class="line">
+                        <p>Switch Game - N2</p>
+                        <hr class="line">
+                        <a>NOK 1350</a>
+                    </div>
+                    <div class="containercheckout">
+                        <h1>Checkout</h1>
+                        <p>Select payment method:</p>
+                        <label class="container">MasterCard
+                            <input type="radio" checked="checked" name="radio">
+                            <span class="checkmark"></span>
+                          </label>
+                          <label class="container">Visa
+                            <input type="radio" name="radio">
+                            <span class="checkmark"></span>
+                          </label>
+                          <label class="container">American Express
+                            <input type="radio" name="radio">
+                            <span class="checkmark"></span>
+                          </label>
+                          <label class="container">PayPal
+                            <input type="radio" name="radio">
+                            <span class="checkmark"></span>
+                          </label>
+                        <button class="btn">Proceed</button>
+                    </div>
+                </div>
+                <div class="navdown">
+                    <nav>
+                        <div class="iconsdown">
+                            <li><a href="about.html" class="current"><i class="fas fa-phone-alt"></i></a></li>
+                            <li><a href="chat.html"><i class="fas fa-comment-alt"></i></a></li>
+                            <li><a href="contact.html"><i class="fas fa-envelope"></i></a></li>
+                            <li><a href="shipping.html"><i class="fas fa-shipping-fast"></i></a></li>
+                        </div>
+                    </nav>
+                </div>
+                <div class="copyright">
+                    <p>GameHub &copy;</p>
+                    <a href="#top"><i class="fas fa-chevron-circle-up"></i></a>
+                </div>
+            </div>
     </body>
 </html>
