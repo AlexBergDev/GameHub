@@ -182,7 +182,6 @@ h1, h2 {
     letter-spacing: -.02em;
     color: white;
     text-align: center;
-    text-shadow: 0 0 2px #435E7D;
 }
 
 .main a:hover{
@@ -518,13 +517,13 @@ nav {
 
 .navup{
     background-color: #7793AA;
-    box-shadow: 2px 2px 10px 3px #263e58;
+    box-shadow: 1px 1px 30px 3px #263e58;
     margin: 0px;
 }
 
 .logo{
     background-color: #44788D;
-    box-shadow: 2px 2px 10px 3px #263e58;
+    box-shadow: 1px 1px 30px 3px #263e58;
     margin: 0px;
 }
 
@@ -546,7 +545,7 @@ nav {
     border-radius: 50px;
     margin-left: 20px;
     margin-right: 20px;
-    box-shadow: 2px 2px 10px 3px #263e58
+    box-shadow: 1px 1px 30px 3px #263e58
 }
 
 .catbarleft{
