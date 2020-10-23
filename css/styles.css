@@ -259,13 +259,8 @@ body {
       "copyright copyright copyright";
 }
 
-.promotion img {
-    border-radius: 50px;
-    max-width: 90%;
-    max-height: 400px;
-    margin: 40px;
-    margin-top: 60px;
-    margin-bottom: 70px;
+.promotion{
+    display: none;
 }
 
 .navigation li{
