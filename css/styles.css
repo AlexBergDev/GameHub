@@ -32,10 +32,7 @@
 }
 
 html, body {
-	margin: 0;
-    padding: 0;
     height: auto;
-    background: linear-gradient(#335174, #1D2F43);
 }
 
 html {
@@ -45,7 +42,6 @@ html {
 body {
 	background: linear-gradient(#335174, #1D2F43);
 	margin: 2em auto 2em;
-	font: 100% Arial, Helvetica, sans-serif;
 
 }
 
@@ -156,7 +152,6 @@ a {
     font-size: 20px;
     line-height: 1.15;
     letter-spacing: -.02em;
-    -webkit-font-smoothing: antialiased;
     text-decoration: none;
     text-shadow: 0 0 2px #435E7D;
 }
